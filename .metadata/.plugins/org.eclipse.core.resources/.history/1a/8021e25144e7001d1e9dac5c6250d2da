@@ -1,0 +1,5 @@
+package com.springcore.jdbc.Dao;
+
+public class StudentDaoImpl implements StudentDao {
+
+}

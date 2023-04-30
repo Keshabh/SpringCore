@@ -1,0 +1,12 @@
+package com.springcore.StereotypeAnnotation;
+
+import org.springframework.stereotype.Component;
+
+@Component("obj")
+public class A {
+
+	private int x;
+	private int y;
+	
+	
+}

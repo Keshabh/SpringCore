@@ -1,0 +1,7 @@
+package com.springcore.JavaConfig;
+
+public class Manager {
+	private int mId;
+	private Emp emp;
+	
+}

@@ -1,0 +1,13 @@
+package com.springcore.StereotypeAnnotation;
+
+import org.springframework.stereotype.Component;
+
+//but if obj is not specified, then by default object with class name is created.
+@Component("obj")
+public class A {
+
+	private int x;
+	private int y;
+	
+	
+}

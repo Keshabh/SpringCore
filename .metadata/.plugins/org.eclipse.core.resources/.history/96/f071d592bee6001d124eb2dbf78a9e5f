@@ -1,0 +1,38 @@
+package com.springcore.StereotypeAnnotation;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Spel {
+	@Value("#{4+5}")
+	private int x;
+	@Value("23")
+	private int b;
+	@Value("#{a+b}")
+	private int result;
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getB() {
+		return b;
+	}
+	public void setB(int b) {
+		this.b = b;
+	}
+	public int getResult() {
+		return result;
+	}
+	public void setResult(int result) {
+		this.result = result;
+	}
+	@Override
+	public String toString() {
+		return "Spel [x=" + x + ", b=" + b + ", result=" + result + "]";
+	}
+	
+	
+}
